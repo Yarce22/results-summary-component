@@ -169,7 +169,84 @@ button {
   border-radius: 50px;
 }
 
+button:hover {
+  cursor: pointer;
+  background: var(--gradient-color);
+}
+
 button p {
   font-size: 18px;
   font-weight: 700;
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-color: #ECF2FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .principal-container {
+    display: flex;
+    background-color: var(--text-color-2);
+    border-radius: 32px;
+  }
+
+  .totalScore-container {
+    width: 368px;
+    height: 512px;
+    border-radius: 32px;
+    padding: 38px;
+  }
+
+  .totalScore-container p:nth-child(1) {
+    font-size: 24px;
+  }
+
+  .totalScore-container .score{
+    width: 200px;
+    height: 200px;
+    padding: 49px 0 46px 0;
+    margin-top: 35px;
+  }
+
+  .totalScore-container .score p:nth-child(1) {
+    font-size: 72px;
+  }
+
+  .totalScore-container .score p:nth-child(2) {
+    font-size: 18px;
+  }
+
+  .totalScore-container p:nth-child(3) {
+    font-size: 32px;
+  }
+
+  .totalScore-container p:nth-child(4) {
+    font-size: 18px;
+    margin: 20px 0px 0 16px;
+  }
+
+  .scores-container {
+    padding: 38px 8px 46px;
+    width: 368px;
+    height: 512px;
+  }
+
+  .scores-container .summary{
+    font-size: 24px;
+    margin: 0 0 20px 32px
+  }
+
+  .button {
+    margin: 0;
+  }
+
+  .button button{
+    margin: 16px 32px;
+    width: 288px;
+    height: 56px;
+  }
 }
