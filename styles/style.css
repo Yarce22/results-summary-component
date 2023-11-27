@@ -29,7 +29,7 @@ html {
 .totalScore-container {
   padding: 24px;
   text-align: center;
-  width: 375px;
+  width: 100vw;
   height: 356px;
   background: var(--gradient-color);
   border-radius: 0px 0px 32px 32px;
@@ -90,7 +90,6 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 315px;
   height: 56px;
   margin: 16px 32px;
   padding: 16px;
